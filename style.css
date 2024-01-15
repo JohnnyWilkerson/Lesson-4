@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-item1{
+    max-width: 400;
+    flex-shrink: 2;
+    order:2;
+}
+
+.flex-item2{
+    max-width: 400;
+    flex-grow: 1;
+    order:1;
+
+}
+
+.flex-item3{
+    max-width: 400;
+    flex-shrink: 2;
+    order:3;
+}
+
+/*Fill webpage with pictures of different sizes
